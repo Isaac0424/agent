@@ -4,3 +4,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Vector DB (regenerate with vector_retriever.ipynb)
+chroma_db/
