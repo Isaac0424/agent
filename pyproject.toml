@@ -7,7 +7,9 @@ authors = [
     { name = "Isaac0424", email = "eodud3858@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langgraph-cli[inmem]>=0.4.32",
+]
 
 [project.scripts]
 agent-one = "agent_one:main"
