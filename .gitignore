@@ -7,3 +7,6 @@ __pycache__/
 
 # Vector DB (regenerate with vector_retriever.ipynb)
 chroma_db/
+
+# LangGraph dev server local state
+.langgraph_api/
